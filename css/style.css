@@ -1,0 +1,272 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Raleway&family=Sansita+Swashed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.google-sans
+{
+  font-family: 'Open Sans', sans-serif;
+   
+}
+.raleway
+{
+  font-family: 'Raleway', sans-serif;
+}
+.pt-serif
+{
+font-family: 'PT Serif', serif;
+}
+.sansita
+{
+  font-family: 'Sansita Swashed', cursive;
+}
+.navbar-light
+{
+  background-color: white;
+}
+.shadow
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.shadow-sm-alt {
+-webkit-box-shadow: -1px 0px 8px -1px rgba(0,0,0,0.66) !important;
+-moz-box-shadow: -1px 0px 8px -1px rgba(0,0,0,0.66) !important;
+box-shadow: -1px 0px 8px -1px rgba(0,0,0,0.66) !important;
+}
+.row-content
+{
+  background-color: white;
+  margin: 10px 0px;
+}
+.carousel .carousel-inner .carousel-item .view img
+{
+height: 300px;
+}
+
+#carouselButton {
+  right: 0px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 1; }
+.footer-copyright
+{
+  background-color: #414141;color: #ccc;
+}
+.nav-link
+{
+  transition: 0.3s;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 20px !important;
+}
+.onhover-bb {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+}
+.onhover-bb:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  height: 2px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.onhover-bb:hover:before, .onhover-bb:focus:before, .onhover-bb:active:before {
+  left: 0;
+  right: 0;
+}
+.onhover-red:before
+{
+background: #db3236;
+}
+.onhover-yellow:before
+{
+background:  #f4c20d;
+}
+.onhover-green:before
+{
+background: #3cba54;
+}
+.onhover-blue:before
+{
+background: #4885ed;
+}
+.text-red
+{
+  color: #db3236 !important;
+}
+.text-yellow
+{
+  color: #f4c20d !important;
+}
+.text-green
+{
+  color: #3cba54 !important;
+}
+.text-blue
+{
+  color: #4885ed !important;
+}
+.text-red-hover:hover
+{
+  color: #db3236 !important;
+}
+.text-yellow-hover:hover
+{
+  color: #f4c20d !important;
+}
+.text-green-hover:hover
+{
+  color: #3cba54 !important;
+}
+.text-blue-hover:hover
+{
+  color: #4885ed !important;
+}
+.bg-red
+{
+  background-color: #db3236 !important;
+}
+.bg-yellow
+{
+  background-color: #f4c20d !important;
+}
+.bg-green
+{
+  background-color: #3cba54 !important;
+}
+.bg-blue
+{
+  background-color: #4885ed !important;
+}
+.btn-dsc
+{
+  border: 2px solid !important;
+  border-radius: 20px;
+ border-left-color: #db3236 !important;
+ border-bottom-color: #f4c20d !important;
+ border-right-color: #3cba54 !important;
+ border-top-color: #4885ed !important;
+background-color: white;
+}
+.btn-dsc:hover
+{
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+.bg-multicolor-horizontal
+{
+background: #db3236; 
+background: -moz-linear-gradient(left,  #db3236 0%, #db3236 26%, #ed8034 26%, #feb123 26%, #f4c20d 26%, #feb123 47%, #feb123 52%, #3cba54 52%, #3cba54 52%, #3cba54 54%, #3cba54 54%, #3cba54 61%, #3cba54 74%, #2184cd 74%, #4885ed 74%, #4885ed 82%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #db3236 0%,#db3236 26%,#ed8034 26%,#feb123 26%,#f4c20d 26%,#feb123 47%,#feb123 52%,#3cba54 52%,#3cba54 52%,#3cba54 54%,#3cba54 54%,#3cba54 61%,#3cba54 74%,#2184cd 74%,#4885ed 74%,#4885ed 82%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #db3236 0%,#db3236 26%,#ed8034 26%,#feb123 26%,#f4c20d 26%,#feb123 47%,#feb123 52%,#3cba54 52%,#3cba54 52%,#3cba54 54%,#3cba54 54%,#3cba54 61%,#3cba54 74%,#2184cd 74%,#4885ed 74%,#4885ed 82%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db3236', endColorstr='#4885ed',GradientType=1 ); /* IE6-9 */
+
+}
+.bg-multicolor-diagonal
+{
+background: #db3236;
+background: -moz-linear-gradient(-45deg,  #db3236 0%, #db3236 26%, #ed8034 26%, #feb123 26%, #f4c20d 26%, #feb123 47%, #feb123 52%, #3cba54 52%, #3cba54 52%, #3cba54 54%, #3cba54 54%, #3cba54 61%, #3cba54 74%, #2184cd 74%, #4885ed 74%, #4885ed 82%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #db3236 0%,#db3236 26%,#ed8034 26%,#feb123 26%,#f4c20d 26%,#feb123 47%,#feb123 52%,#3cba54 52%,#3cba54 52%,#3cba54 54%,#3cba54 54%,#3cba54 61%,#3cba54 74%,#2184cd 74%,#4885ed 74%,#4885ed 82%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #db3236 0%,#db3236 26%,#ed8034 26%,#feb123 26%,#f4c20d 26%,#feb123 47%,#feb123 52%,#3cba54 52%,#3cba54 52%,#3cba54 54%,#3cba54 54%,#3cba54 61%,#3cba54 74%,#2184cd 74%,#4885ed 74%,#4885ed 82%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db3236', endColorstr='#4885ed',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.divider
+{
+  height: 1px;
+}
+.btn-social-icon
+{
+  color: #111 !important;
+  border-radius: 50%;
+  border: none;
+background-color: transparent !important;
+transition: 0.3s;
+}
+.btn-facebook:hover
+{
+  color: white !important;
+background-color: #3B5998 !important;
+}
+.btn-twitter:hover
+{
+  color: white !important;
+background-color: #00acee !important;
+}
+.btn-linkedin:hover
+{
+  color: white !important;
+background-color: #067ea8 !important;
+}
+.btn-instagram:hover
+{
+  color: white !important;
+background-color: #d02a7b !important;
+}
+.btn-discord:hover
+{
+  color: #7289da !important;
+}
+.btn-github:hover
+{
+  color: white !important;
+background-color: #211f1f !important;
+}
+.btn-whatsapp:hover
+{
+  color: white !important;
+background-color: #25d366 !important;
+}
+.btn-telegram:hover
+{
+  color: #0088cc !important;
+}
+.footer-content a,.footer-copyright a
+{
+text-decoration: none;
+}
+
+.fade
+{
+  opacity: 0;
+}
+.v-center
+{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.v-bottom
+{
+   position: relative;
+  top: 100%;
+}
+.position-col 
+{
+
+  transition: 0.5s;
+}
+.position-col img
+{
+  height: 200px;
+}
+.position-col:hover
+{
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+.join-img
+{
+  height: 200px;
+}
