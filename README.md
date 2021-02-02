@@ -1,7 +1,21 @@
-# DSC-SISTec.github.io
-# First Contributions
+<p align="center">
+</a>
+	<h2 align="center"> DSC Official Website </h2>
+	<h4 align="center"> Official website for DSC-SISTEC. <h4>
+</p>
 
-This project aims to simplify and guide the way beginners make their first contribution. If you are looking to make your first contribution, follow the steps below.
+---
+### Fork, clone and edit the repo and send a pull request to make the changes in the GitHub webpage of DSC-SISTEC.
+
+## Functionalities 
+- [x]  All social links
+- [x]  All important information about DSC
+- [x]  Links to become member, blogs, webinars, etc
+- [x]  links of event
+
+# basic instructions for Contributions
+
+If you are looking to make your first contribution, follow the steps below.
 
 _If you're not comfortable with command line, [here are tutorials using GUI tools.](#tutorials-using-other-tools)_
 
@@ -16,8 +30,6 @@ This will create a copy of this repository in your account.
 
 ## Clone the repository
 
-<img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/clone.png" alt="clone this repository" />
-
 Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the code button and then click the _copy to clipboard_ icon.
 
 Open a terminal and run the following git command:
@@ -28,15 +40,13 @@ git clone "url you just copied"
 
 where "url you just copied" (without the quotation marks) is the url to this repository (your fork of this project). See the previous steps to obtain the url.
 
-<img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/copy-to-clipboard.png" alt="copy URL to clipboard" />
-
 For example:
 
 ```
-git clone https://github.com/this-is-you/first-contributions.git
+git clone https://github.com/'this-is-you'/DSC-SISTec.github.io.git
 ```
 
-where `this-is-you` is your GitHub username. Here you're copying the contents of the first-contributions repository on GitHub to your computer.
+where `this-is-you` is your GitHub username. Here you're copying the contents of the this repository on GitHub to your computer.
 
 ## Create a branch
 
@@ -55,32 +65,27 @@ git checkout -b your-new-branch-name
 For example:
 
 ```
-git checkout -b add-alonzo-church
+git checkout -b temp-dsc
 ```
 
 (The name of the branch does not need to have the word _add_ in it, but it's a reasonable thing to include because the purpose of this branch is to add your name to a list.)
 
 ## Make necessary changes and commit those changes
 
-Now open `Contributors.md` file in a text editor, add your name to it. Don't add it at the beginning or end of the file. Put it anywhere in between. Now, save the file.
-
-<img align="right" width="450" src="https://firstcontributions.github.io/assets/Readme/git-status.png" alt="git status" />
-
 If you go to the project directory and execute the command `git status`, you'll see there are changes.
 
 Add those changes to the branch you just created using the `git add` command:
 
 ```
-git add Contributors.md
+git add .
 ```
 
 Now commit those changes using the `git commit` command:
 
 ```
-git commit -m "Add <your-name> to Contributors list"
+git commit -m "whatever the changes you've done"
 ```
 
-replacing `<your-name>` with your name.
 
 ## Push changes to GitHub
 
@@ -96,10 +101,8 @@ replacing `<add-your-branch-name>` with the name of the branch you created earli
 
 If you go to your repository on GitHub, you'll see a `Compare & pull request` button. Click on that button.
 
-<img style="float: right;" src="https://firstcontributions.github.io/assets/Readme/compare-and-pull.png" alt="create a pull request" />
-
 Now submit the pull request.
 
 <img style="float: right;" src="https://firstcontributions.github.io/assets/Readme/submit-pull-request.png" alt="submit pull request" />
 
-Soon I'll be merging all your changes into the master branch of this project. You will get a notification email once the changes have been merged.
+Soon we'll be merging all your changes into the master branch of this project. You will get a notification email once the changes have been merged.
