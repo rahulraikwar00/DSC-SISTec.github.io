@@ -12,6 +12,7 @@
 - [x]  All important information about DSC
 - [x]  Links to become member, blogs, webinars, etc
 - [x]  links of event
+- [x]  Details of about all leads 
 
 # basic instructions for Contributions
 
